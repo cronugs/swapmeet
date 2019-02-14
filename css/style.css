@@ -16,13 +16,14 @@ padding: 0;
 
 .firstBox {
   height: 400px;
-
   display: block;
   width:100%;
-
-
   margin-bottom: 15px;
   background-color: orange;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background
+
 }
 
 .secondBox {
@@ -50,8 +51,8 @@ div {
   width: 100%;
   background-color: green;
   transform: translateY(-155px);
-  transition: transform .5s;
-  /*z-index: -1;*/
+  transition: transition .5s;
+
 }
 
 .column {
@@ -101,4 +102,5 @@ li {
 
 .topbar:hover {
   transform: translateY(0px);
+
 }
