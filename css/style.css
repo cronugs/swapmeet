@@ -54,6 +54,7 @@ div {
   height: 200px;
   position: absolute;
   border: 5px solid black;
+  border-bottom: none;
   top: 0px;
   width: 100%;
   background-color: green;
@@ -109,5 +110,21 @@ li {
 
 .topbar:hover {
   transform: translateY(0px);
+
+}
+
+.bar_div {
+  height: 100%;
+  width: 20%;
+  background-color: black;
+  position: absolute;
+}
+
+.nav_footer {
+  height: 50px
+  width: 88%;
+  color: black;
+  background-color: orange;
+
 
 }
